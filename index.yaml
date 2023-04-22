@@ -2,11 +2,19 @@ apiVersion: v1
 entries:
   my-chart:
   - apiVersion: v1
-    created: "2023-04-22T15:46:45.020774+01:00"
+    created: "2023-04-22T16:26:08.757103+01:00"
+    description: Helm chart for test app to load in flux
+    digest: 98a4de814cf91fe6b97d29ab89d45a68241fbdcca8f6eed927339b8727d50566
+    name: my-chart
+    urls:
+    - https://davescreen.github.io/helm-gitops-example/my-chart-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    created: "2023-04-22T16:26:08.755271+01:00"
     description: Helm chart for test app to load in flux
     digest: c5760818ad451bdfd98cb94c87d9b1765ea7c3440b20912b6f716cd0bbc74c69
     name: my-chart
     urls:
     - https://davescreen.github.io/helm-gitops-example/my-chart-1.0.0.tgz
     version: 1.0.0
-generated: "2023-04-22T15:46:45.018827+01:00"
+generated: "2023-04-22T16:26:08.754344+01:00"
