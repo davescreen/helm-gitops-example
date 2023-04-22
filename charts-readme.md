@@ -1,12 +1,18 @@
-# Create index.yaml with
+# Building repo
+
+## Enable GitHub Pages with source from main branch
+Now get an github.io link https://davescreen.github.io/helm-gitops-example/index.yaml
+
+## Create index.yaml 
 helm repo index . --url https://davescreen.github.io/helm-gitops-example
 
-# Enable GitHub Pages with source from main branch
-# Now get an github.io link :
-with accessible https://davescreen.github.io/helm-gitops-example/index.yaml
 
-
-# Add repo
+# Using the repo
+## Add repo
 helm repo add helm-gitops-example https://davescreen.github.io/helm-gitops-example
-# install with
+
+## Search for my-chart
+helm search repo my-chart
+
+## install with
 helm install my-chart helm-gitops-example/my-chart
