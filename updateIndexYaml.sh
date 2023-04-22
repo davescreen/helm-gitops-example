@@ -1,0 +1,1 @@
+helm repo index . --url https://davescreen.github.io/helm-gitops-example
